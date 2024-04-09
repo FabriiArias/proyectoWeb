@@ -1,8 +1,84 @@
 body{
-    background-color: dimgray;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-span{
-    background-color: bisque;
-    color: black;
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(49, 43, 43);
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.logo-img{
+    width: 100px;
+    height: 100px;
+}
+.padre-lista-menu{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.links-menu{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+.links-menu:hover{
+    background-color: rgba(85, 85, 84, 0.561);
+    transform: scale(1.15);
+}
+.primera-sec{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tar{
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    border: solid 1px rgb(162, 162, 162);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.742);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.cont-img-philip{
+    width: 300px;
+    height: 300px;
+    background-image: url('https://atencion24.ar/wp-content/uploads/2022/03/86d0f004-39db-4812-b866-5262f59fed61.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cont-img-chester{
+    width: 300px;
+    height: 300px;
+    background-image: url('https://atencion24.ar/wp-content/uploads/2022/03/a25e0da6-b05f-4a97-b078-8ca5850a7afd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont-img-mal{
+    width: 300px;
+    height: 300px;
+    background-image: url('https://cdn.benzinga.com/files/imagecache/story_image_685x375C/images/story/2022/07/21/marlboro_ice_blast_open.jpg?crop=smart&height=375&width=685&optimize=medium&dpr=1&auto=webpps://atencion24.ar/wp-content/uploads/2022/03/a25e0da6-b05f-4a97-b078-8ca5850a7afd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h6{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.texto-tar{
+    margin-top: 0px;
+    padding-top: 0px;
 }
