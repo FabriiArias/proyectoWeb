@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 header{
     display: flex;
@@ -91,6 +92,8 @@ h1{
     -webkit-box-shadow: 2px -11px 21px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 2px -11px 21px 0px rgba(0,0,0,0.5);
     box-shadow: 2px -11px 21px 0px rgba(0,0,0,0.5);
+    display: flex;
+    width: 100%;
 }
 .segunda-sec{
     margin: 0 auto;
@@ -157,4 +160,45 @@ h6{
     margin-top: 0px;
     padding-top: 0px;
     text-indent: 10px;
+}
+
+@media (max-width:600px){
+    body{
+        background-color: #000000;
+    }
+    .titulo-y-txt{
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        order: 2;
+        background-color: #61130083;
+        padding: 10px;
+        height: 100%;
+        color: white;
+        box-shadow: 10px 10px 5px 0px rgba(245, 245, 245, 0.20);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.20);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.20);
+    }
+    .texto-ps{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 100px;
+        padding: 10px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    
+    h1{
+       padding-top: 5px;
+       padding-bottom: 0px;
+       font-size: 55px;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       color: #ee8100;
+       
+    }
 }
