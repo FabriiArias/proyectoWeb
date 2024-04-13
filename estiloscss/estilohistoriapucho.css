@@ -1,7 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+color: white;
+
+
 }
 
+/*header*/
 header {
     display: flex;
     justify-content: space-around;
@@ -36,9 +43,49 @@ header {
     transform: scale(1.15);
 }
 
+/*--------------------------------------contenido pagina------------------------------------------------------------------------------- */
 .historia {
     padding-left: 10%;
     padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://images.unsplash.com/photo-1578590584465-4ddad6674644?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: #61130083;
+}
+
+.pconimg {
+    display: flex;
+    justify-self: flex-start;
+    
+}
+
+.imgdp {
+    border-style: solid;
+    font-size: small;
+    background-color: gray;
+    justify-self: flex-end;
 
 }
 
+#lacometa{
+width: 15%;
+height: 15%;
+display: flex;
+border-style: solid;
+border-color: #61130083;
+flex-direction: column;
+background-color: gray;
+color: white;
+
+
+}
+
+#pain{
+display: flex;
+justify-content: flex-start;
+border-color: #61130083;
+color: rgb(209, 209, 209);
+
+
+
+}
