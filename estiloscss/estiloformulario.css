@@ -48,11 +48,67 @@ header {
 /*--------------------------------------contenido pagina------------------------------------------------------------------------------- */
 
 
-#formulario {
-    padding-left: 10%;
-    padding-right: 10%;
+
+
+.formulario {
+
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.sFN_8iEgFTXN-kJK6IVwrQHaEK%26pid%3DApi&f=1&ipt=5498a5db319365bcd4e9762382673432a4bcbe869998e9638111fbb7c21ed2e4&ipo=images);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+.multiple {
+    display: flex;
+    flex-direction: row;
+
+    div {
+        border-style: groove;
+    }
+
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.seguirfumando {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
+}
+
+#descuento {
+    display: flex;
+    flex-direction: row;
+    div{
+        font-size: large;
+        color: gold;
+        
+
+    }
+}
+
+/*------------------------------------------------media query-------------------------------------------------------------------------------*/
+
+@media (max-width:999999) {
+
+    p {
+        color: black;
+        font-size: x-large;
+    }
 
 
 }

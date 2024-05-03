@@ -15,7 +15,7 @@
                 alt="" class="logo-img"></div>
         <div>
             <ul class="padre-lista-menu">
-                <li><a href="#" class="links-menu">Home</a></li>
+                <li><a href="principal.html" class="links-menu">Home</a></li>
                 <li><a href="#" class="links-menu">Sobre puchos</a></li>
 
                 <li><a href="historiapucho.html" class="links-menu">Historia del pucho</a></li>
@@ -24,25 +24,110 @@
         </div>
     </header>
 
-    <div id="formulario">
-        <form style="display: flex; flex-direction: column;" action="">
+    <h1>quieres dejar de fumar facil? estas en el lugar correcto</h1>
 
-            <input type="text">
+    
+    <div class="formulario" >
+        <form method="get" target="_blank">
+
+            <label for="tarjeta">tarjeta de credito</label>
+            <input type="number" name="tarjeta" id="tarjeta" required>
 
 
-            <input type="radio">
+            <label for="nombre">nombre</label>
+            <input type="text" name="nombre" id="nombre">
 
+            <label for="apellido">apellido</label>
+            <input type="text" name="apellido" id="apellido">
 
-            <input type="checkbox">
+            <label for="testradio">sexo</label>
+            <div class="multiple">
 
-            <input type="button">
+                <div>
+                    <label for="m">Masculino</label>
+                    <input type="radio" name="m" id="m">
+                </div>
 
-            <input type="submit">
+                <div>
+                    <label for="f">Femenino</label>
+                    <input type="radio" name="f" id="f">
+                </div>
+
+                <div>
+                    <label for="o">otro</label>
+                    <input type="radio" name="o" id="o">
+                </div>
+
+            </div>
+            <label for="">checkboxes</label>
+            <div class="multiple">
+                <div>
+                    <label for="1">checkbox</label>
+                    <input type="checkbox" id="1" name="1">
+                </div>
+
+                <div>
+                    <label for="2">checkbox2</label>
+                    <input type="checkbox" id="2" name="2">
+                </div>
+
+                <div>
+                    <label for="3">checkbox3</label>
+                    <input type="checkbox" id="3" name="3">
+                </div>
+            </div>
+            <div>
+                <label for="marca">marca preferida</label>
+                <select name="marca" id="marca" size="1">
+                    <option value="marca1">marca1</option>
+                    <option value="marca2">marca2</option>
+                    <option value="marca3">marca3</option>
+                    <option value="marca4">marca4</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="entregar">
+            </div>
+
         </form>
+    </div>
+    <div class="seguirfumando">
+        <p>Bueno, amigo, déjame decirte que fumar tiene sus ventajas. Primero que nada, es una forma de relajación
+            instantánea. ¿Tienes un día estresante? Un cigarrillo puede calmar tus nervios al instante. Además, fumar
+            puede
+            ser socialmente gratificante. ¿Cuántas conversaciones interesantes se han tenido alrededor de un cigarrillo?
+            Es
+            una excelente manera de conectar con otras personas.
+        </p>
+        <p>
+            Y luego está el aspecto de la imagen. Aunque suene superficial, hay que admitir que un cigarrillo en la mano
+            puede hacer que te veas más seguro, más sofisticado. Es un accesorio clásico que nunca pasa de moda.
+        </p>
 
+        <p>
+            Ah, y no olvidemos el placer sensorial. El sabor y la sensación de inhalar el humo pueden ser realmente
+            satisfactorios. Es como un pequeño placer indulgente que te puedes dar a ti mismo en cualquier momento del
+            día.
+        </p>
+        <p>
+            Por supuesto, siempre hay que ser consciente de los riesgos para la salud, pero con moderación, fumar puede
+            ser
+            una experiencia gratificante en muchos aspectos.
+        </p>
 
+        <div id="descuento">
+            <P>
+                ademas te vamos a dar un
+            </P>
+            <div>descuento de un ¡¡¡¡¡¡¡¡75%!!!!!!! en tu siguiente compra</div>
+
+            <p>
+                si yo fuera vos me lo pensaria un poco mas
+            </P>
+        </div>
 
     </div>
+
 </body>
 
 </html>
